@@ -33,5 +33,5 @@
         "classmap": ["src/"]
     },
     "license": "MIT",
-    "bin": ['jsmin']
+    "bin": ["jsmin"]
 }
