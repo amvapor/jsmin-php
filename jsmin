@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+
+include "src/jsmin-1.1.1.php";
+if (!isset($argv[1])) {
+    die(
+        'Usage: jsmin file' . PHP_EOL
+    );
+}
+
+if (!file_exists($argv[1])) {
+    die(
+        'jsmin: cannot minify ' . $argv[1] . ': No such file or directory' . PHP_EOL
+    );
+}
+print JSMin::minify(file_get_contents($argv[1]));

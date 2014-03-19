@@ -8,29 +8,30 @@
         {
             "name": "Joost Faassen",
             "email": "j.faassen@linkorb.com",
-	    "role": "Packaging for composer"
+            "role": "Packaging for composer"
         },
         {
             "name": "Douglas Crockford",
             "email": "douglas@crockford.com",
-	    "role": ""
+            "role": ""
         },
         {
             "name": "Ryan Grove",
             "email": "ryan@wonko.com",
-	    "role": "PHP port"
+            "role": "PHP port"
         },
         {
             "name": "Adam Gofort",
-	    "email": "aag@adamgoforth.com",
-	    "role": "Updates to the PHP port"
+            "email": "aag@adamgoforth.com",
+            "role": "Updates to the PHP port"
         }
     ],
     "require": {
         "php": ">=5.0.0"
     },
     "autoload": {
-	    "classmap": ["src/"]
+        "classmap": ["src/"]
     },
-    "license": "MIT"
+    "license": "MIT",
+    "bin" ['jsmin']
 }
